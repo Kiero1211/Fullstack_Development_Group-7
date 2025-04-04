@@ -4,7 +4,7 @@
 	"main": "server.ts",
 	"scripts": {
 		"build": "tsc",
-		"start": "ts-node src/server.ts",
+		"start": "tsc && ts-node src/server.ts",
 		"dev": "nodemon src/server.ts",
 		"lint": "eslint 'src/**/*.ts'"
 	},
